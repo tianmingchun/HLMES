@@ -1,0 +1,292 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42AA9E34-20FD-483D-912C-D2E81F683BC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HL.UI</RootNamespace>
+    <AssemblyName>HL.UI</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>\ResidentFlash\HL.UI</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <DeployDirPrefix>\</DeployDirPrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckInByOrderFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckInMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckInTasksFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\OuterOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\OuterOrderForm.Designer.cs">
+      <DependentUpon>OuterOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn\OuterOrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\OuterOrderHistoryForm.Designer.cs">
+      <DependentUpon>OuterOrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn\FactoryOrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\FactoryOrderHistoryForm.Designer.cs">
+      <DependentUpon>FactoryOrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn\ProductOrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\ProductOrderHistoryForm.Designer.cs">
+      <DependentUpon>ProductOrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn\FactoryOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\FactoryOrderForm.Designer.cs">
+      <DependentUpon>FactoryOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn\ProductOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckIn\ProductOrderForm.Designer.cs">
+      <DependentUpon>ProductOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutByMaterialFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutByOrderFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut\FactoryOrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut\FactoryOrderHistoryForm.Designer.cs">
+      <DependentUpon>FactoryOrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut\FactoryOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut\FactoryOrderForm.Designer.cs">
+      <DependentUpon>FactoryOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut\ProductOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut\ProductOrderForm.Designer.cs">
+      <DependentUpon>ProductOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut\ProductOrderHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut\ProductOrderHistoryForm.Designer.cs">
+      <DependentUpon>ProductOrderHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckWaitingFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollectionDetailFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\QueryOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectFrm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectFrm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectFrm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectGoodsFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InspectMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstallForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurOrderForm.Designer.cs">
+      <DependentUpon>PurOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskType.cs" />
+    <Compile Include="UICommand.cs" />
+    <Compile Include="MenuFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveOutByGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiCheckInFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiCheckOutFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintDetailFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryOrderByDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReprintListFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HL.BLL\HL.BLL.csproj">
+      <Project>{E8AA6C0B-69E8-40DE-9F96-4686BE66AD39}</Project>
+      <Name>HL.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL.Controls\HL.Controls.csproj">
+      <Project>{9EC429B2-3E05-4E8E-A1D4-957AD6687624}</Project>
+      <Name>HL.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL.DAL\HL.DAL.csproj">
+      <Project>{34720809-698C-4534-916D-15D3C0206357}</Project>
+      <Name>HL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL.Device\HL.Device.csproj">
+      <Project>{051D97E4-6454-4682-AD0C-304950967829}</Project>
+      <Name>HL.Device</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL.Entity\HL.Entity.csproj">
+      <Project>{D577DF49-5CCB-447A-8D31-C0A7C52CDD53}</Project>
+      <Name>HL.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HL.Framework\HL.Framework.csproj">
+      <Project>{AB6E24B8-BE03-4A81-834C-5550C2843784}</Project>
+      <Name>HL.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CheckIn\OuterOrderForm.resx">
+      <DependentUpon>OuterOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn\OuterOrderHistoryForm.resx">
+      <DependentUpon>OuterOrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn\FactoryOrderHistoryForm.resx">
+      <DependentUpon>FactoryOrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn\ProductOrderHistoryForm.resx">
+      <DependentUpon>ProductOrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn\FactoryOrderForm.resx">
+      <DependentUpon>FactoryOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckIn\ProductOrderForm.resx">
+      <DependentUpon>ProductOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutByMaterialFrm.resx">
+      <DependentUpon>CheckOutByMaterialFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut\FactoryOrderHistoryForm.resx">
+      <DependentUpon>FactoryOrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut\FactoryOrderForm.resx">
+      <DependentUpon>FactoryOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut\ProductOrderForm.resx">
+      <DependentUpon>ProductOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut\ProductOrderHistoryForm.resx">
+      <DependentUpon>ProductOrderHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\QueryOrderForm.resx">
+      <DependentUpon>QueryOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurOrderForm.resx">
+      <DependentUpon>PurOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inspect\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

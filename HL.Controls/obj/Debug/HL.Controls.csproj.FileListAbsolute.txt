@@ -1,0 +1,10 @@
+E:\MyDocuments\helipda\HLWarehouse\HL.Controls\bin\Debug\HL.Controls.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Controls\bin\Debug\HL.Controls.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.Controls\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\HLWarehouse\HL.Controls\obj\Debug\HL.Controls.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Controls\obj\Debug\HL.Controls.pdb
+E:\MyDocuments\helipda\MES\HL.Controls\bin\Debug\HL.Controls.dll
+E:\MyDocuments\helipda\MES\HL.Controls\bin\Debug\HL.Controls.pdb
+E:\MyDocuments\helipda\MES\HL.Controls\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.Controls\obj\Debug\HL.Controls.dll
+E:\MyDocuments\helipda\MES\HL.Controls\obj\Debug\HL.Controls.pdb

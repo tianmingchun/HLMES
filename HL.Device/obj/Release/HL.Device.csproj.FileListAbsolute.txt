@@ -1,0 +1,5 @@
+E:\MyDocuments\helipda\MES\HL.Device\bin\Release\HL.Device.dll
+E:\MyDocuments\helipda\MES\HL.Device\bin\Release\HL.Device.pdb
+E:\MyDocuments\helipda\MES\HL.Device\obj\Release\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.Device\obj\Release\HL.Device.dll
+E:\MyDocuments\helipda\MES\HL.Device\obj\Release\HL.Device.pdb

@@ -1,0 +1,10 @@
+E:\MyDocuments\helipda\HLWarehouse\HL.Entity\bin\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Entity\bin\Debug\HL.Entity.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\HLWarehouse\HL.Entity\obj\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Entity\obj\Debug\HL.Entity.pdb
+E:\MyDocuments\helipda\MES\HL.Entity\bin\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.Entity\bin\Debug\HL.Entity.pdb
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Debug\HL.Entity.pdb

@@ -1,0 +1,12 @@
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\bin\Debug\HL.DAL.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\bin\Debug\HL.DAL.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\bin\Debug\System.Data.SQLite.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\obj\Debug\HL.DAL.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.DAL\obj\Debug\HL.DAL.pdb
+E:\MyDocuments\helipda\MES\HL.DAL\bin\Debug\HL.DAL.dll
+E:\MyDocuments\helipda\MES\HL.DAL\bin\Debug\HL.DAL.pdb
+E:\MyDocuments\helipda\MES\HL.DAL\bin\Debug\System.Data.SQLite.dll
+E:\MyDocuments\helipda\MES\HL.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.DAL\obj\Debug\HL.DAL.dll
+E:\MyDocuments\helipda\MES\HL.DAL\obj\Debug\HL.DAL.pdb

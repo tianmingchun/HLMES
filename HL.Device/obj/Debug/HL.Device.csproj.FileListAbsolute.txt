@@ -1,0 +1,10 @@
+E:\MyDocuments\helipda\HLWarehouse\HL.Device\bin\Debug\HL.Device.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Device\bin\Debug\HL.Device.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.Device\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\HLWarehouse\HL.Device\obj\Debug\HL.Device.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.Device\obj\Debug\HL.Device.pdb
+E:\MyDocuments\helipda\MES\HL.Device\bin\Debug\HL.Device.dll
+E:\MyDocuments\helipda\MES\HL.Device\bin\Debug\HL.Device.pdb
+E:\MyDocuments\helipda\MES\HL.Device\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.Device\obj\Debug\HL.Device.dll
+E:\MyDocuments\helipda\MES\HL.Device\obj\Debug\HL.Device.pdb

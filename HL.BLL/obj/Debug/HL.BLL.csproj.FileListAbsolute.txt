@@ -1,0 +1,17 @@
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\bin\Debug\HL.BLL.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\bin\Debug\HL.BLL.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\bin\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\bin\Debug\HL.Entity.pdb
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\obj\Debug\HL.BLL.dll
+E:\MyDocuments\helipda\HLWarehouse\HL.BLL\obj\Debug\HL.BLL.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.BLL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.BLL.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.DAL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\System.Data.SQLite.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.DAL.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Debug\HL.Entity.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Debug\HL.BLL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Debug\HL.BLL.pdb

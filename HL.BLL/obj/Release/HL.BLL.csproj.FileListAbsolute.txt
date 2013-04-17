@@ -1,0 +1,10 @@
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.BLL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.BLL.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.DAL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\System.Data.SQLite.dll
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.DAL.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\bin\Release\HL.Entity.pdb
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Release\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Release\HL.BLL.dll
+E:\MyDocuments\helipda\MES\HL.BLL\obj\Release\HL.BLL.pdb

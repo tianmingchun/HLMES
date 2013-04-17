@@ -1,0 +1,5 @@
+E:\MyDocuments\helipda\MES\HL.Entity\bin\Release\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.Entity\bin\Release\HL.Entity.pdb
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Release\ResolveAssemblyReference.cache
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Release\HL.Entity.dll
+E:\MyDocuments\helipda\MES\HL.Entity\obj\Release\HL.Entity.pdb
