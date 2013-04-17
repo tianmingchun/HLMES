@@ -7,7 +7,7 @@
     /// <summary>
     /// Catctwell Interface2  
     /// modi online,777777777777
-    /// 
+    /// 6666666666666
     /// </summary>
     public class OEM_Catchwell
     {
@@ -19,6 +19,7 @@
         public static bool BluetoothIsAdapted()
         {
             //return DLL_Import.BluetoothIsAdapted();
+            //5555555555555555555
             return false;
         }
 
