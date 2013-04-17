@@ -11,6 +11,10 @@
     public class OEM_Catchwell
     {
      
+        /// <summary>
+        /// 66666666666666666
+        /// </summary>
+        /// <returns></returns>
         public static bool BluetoothIsAdapted()
         {
             //return DLL_Import.BluetoothIsAdapted();
