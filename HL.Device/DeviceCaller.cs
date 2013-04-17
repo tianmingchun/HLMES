@@ -5,6 +5,7 @@ using System.Text;
 
 namespace HL.Device
 {
+    //modi by tmc,2013-04-16
     public enum PdaDeviceType
     {
         HT5000 = 0,
