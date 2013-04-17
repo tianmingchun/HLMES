@@ -31,6 +31,7 @@
         public static bool BluetoothPowerOn()
         {
             //return DLL_Import.BluetoothPowerOn();
+            //0000000000000
             return false;
         }
 
